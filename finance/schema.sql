@@ -1,0 +1,9 @@
+CREATE TABLE stocks(
+    id INTEGER UNIQUE NOT NULL,
+    user TEXT NOT NULL,
+    shares INTEGER NOT NULL,
+    symbol TEXT NOT NULL,
+    dates TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    price REAL NOT NULL,
+    PRIMARY KEY(id)
+);

@@ -1,0 +1,112 @@
+/*Universal styles*/
+.flex-conteiner{
+  display: flex;
+  height: 93vh;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  position: relative;
+}
+h1{
+  font-size: 2.5rem;
+  -webkit-text-stroke: 0.75px #101230;
+}
+h2{
+  font-size: 2.5rem;
+  color: transparent;
+  -webkit-text-stroke: 2px #101230;
+}
+
+/*Score styles*/
+.score{
+  flex-basis: 30%;
+  position: absolute;
+  padding-left: 10px;
+  left: 0;
+  top: 0;
+}
+
+/*Game styles*/
+.game{
+  flex-basis: 90%;
+  text-align: center;
+}
+.form-style{
+  border: 2px solid #101230;
+  font-size: 1.5rem;
+  text-align: right;
+  width: 70px;
+  margin-left: 30px;
+
+}
+.math-btn-style {
+  background-color: transparent;
+  border: 2px solid #101230;
+  font-size: 1.5rem;
+  -webkit-text-stroke: 1.25px #101230;
+}
+
+.start-btn {
+  transition: all 0.2s ease-in-out;
+  margin-top: 10px;
+}
+.start-btn:hover{
+  font-size: 1.4rem;
+}
+
+.input-btn {
+  height: 42px;
+}
+
+.transition {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+}
+.transition.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*Health styles*/
+.health{
+  text-align: right;
+  flex-basis: 30%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+.health img{
+  width: 0vw;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+.have-hp{
+  width: 5vw !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .have-hp{
+    width: 10vw !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1{
+    font-size: 1.5rem;
+  }
+  h2{
+    font-size: 1.5rem;
+    color: transparent;
+    -webkit-text-stroke: 1px #101230;
+  }
+  .form-style{
+    font-size: 1.25rem;
+  }
+  .input-btn {
+    height: 36px;
+    font-size: 1.25rem;
+  }
+}

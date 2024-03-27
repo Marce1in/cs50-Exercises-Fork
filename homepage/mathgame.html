@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" type="image/x-icon" href="/images/Undertale_Duck.gif">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <link href="math.css" rel="math stylesheet">
+        <script src="/math.js"></script>
+        <title>Math Game</title>
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-md navbar-dark" style="background-color: #1b1145">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="/images/Undertale_Duck.gif" alt="Cool Duck Logo" width="30" height="40">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/index">HomePage</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Math Game</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/cs50">What Is CS50</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/aboutMe">About Me</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="flex-conteiner">
+
+          <div class="score">
+            <h2>
+              SCORE: <span id="score">0</span><br>
+              TIME: <span id="time">00:00</span><br>
+            </h2>
+          </div>
+
+          <div class="game">
+            <h1 class="transition">
+              &nbsp;&nbsp; <span id="portionA">00</span>
+              <br>
+              + <span id="portionB">00</span>
+              <br>
+              -----
+            </h1>
+            <input id="input-box" class="form-style transition" type="text" size="1" maxlength="4" disabled>
+
+            <button id="submit" class="math-btn-style input-btn transition" onclick="check_answer(),
+            this.previousElementSibling.focus()">></button><br>
+
+            <button id="start-game" class="math-btn-style start-btn" onclick="start_game()">START</button>
+          </div>
+
+          <div class="health">
+            <img src="/images/HP.png" alt="First Hearth">
+            <img src="/images/HP.png" alt="Second Hearth">
+            <img src="/images/HP.png" alt="Third Hearth">
+          </div>
+
+        </div>
+
+    </body>
+</html>

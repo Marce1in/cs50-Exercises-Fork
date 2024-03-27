@@ -1,0 +1,48 @@
+1.O usuário deve:
+    1- Abrir o navegador
+    2- Digitar o endereço do site do banco
+    3- Preencher dados do número da agência e conta
+    4- Confirmar ou digitar o nome do usuário
+    5- Inserir a senha
+    6- Clicar no botão "OK" de acesso
+    7- Selecionar a opção de saldo
+    8- Encerrar a seção
+    9- Fechar o navegador
+
+2.Passo a passo da expresão:
+    1- Multiplicamos 34 por 3 resultando 102
+    2- Multiplicamos 5 por 15 resultando 75
+    3- Somamos 102 com 75 resultando 177
+    4- O resultado é 177
+
+3.Passo a passo para perguntas:
+    1.Para realizar a soma de 40, 1 e 25:
+        1- Teremos x = 40, y = 1, z = 25 como dados de entrada
+        2- Teremos x + y + z resultando 66 como número de saída
+    2.Para calcular a média aritmética de 3 notas:
+        1- Teremos x, y e z como as notas dos alunos
+        2- Somaremos x + y + z
+        3- Dividiremos o total da soma das notas dos alunos
+        pelo número de notas que foram dadas, por exemplo 3
+        4- Retornaremos essa divisão
+    3.Calcular a área de um quadrado:
+        1- Teremos x e y de entrada como altura e largura
+        2- Multiplicaremos x e y
+        3- Retornaremos o resultado da multiplicação
+    4.Calcular o valor de uma prestação em atraso, utilizando a fórmula:
+        PRESTAÇÃO = VALOR + (VALOR * (TAXA/100) * TEMPO)
+        1- Teremos  VALOR, TAXA e tempo como os valores de entrada
+        2- Executaremos a fórmula
+        3- Retornaremos a variável PRESTAÇÃO 
+
+4.Indique o tipo de dados:
+    A- 1000 = int
+    B- 25 = int
+    C- "00" = string
+    D- VERDADEIRO = bool
+    E- -456 = int
+    F- 34,2 = float
+    G- "Casa 8" = string
+    H- "x" = string
+    I- Falso = bool
+    J- -1,56 = float

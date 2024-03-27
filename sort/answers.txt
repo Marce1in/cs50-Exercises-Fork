@@ -1,0 +1,11 @@
+sort1 uses: bubble
+
+How do you know?: if the numbers are already sorted he's super fast.
+
+sort2 uses: merge
+
+How do you know?: he's the fastest algorithm when sorting a reversed array.
+
+sort3 uses: selection
+
+How do you know?: he's the slowest algorithm by far.

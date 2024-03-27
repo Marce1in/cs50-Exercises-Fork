@@ -1,0 +1,18 @@
+Ask for a number for height.
+If the number is not between 8 and 1 go back one step.
+print a right-facing pyramid with the size of the given number.
+examples:
+height: 4
+   #
+  ##
+ ###
+####
+height: 8
+       #
+      ##
+     ###
+    ####
+   #####
+  ######
+ #######
+########

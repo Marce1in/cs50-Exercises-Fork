@@ -1,0 +1,5 @@
+1.
+Nb = Nome do aluno
+Na = Nota do aluno
+Nmat = número da matrícula do aluno
+Sx = Gênero do aluno

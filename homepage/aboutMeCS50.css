@@ -1,0 +1,87 @@
+body {
+    margin-bottom: 2rem;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin-right: 12%;
+    margin-left: 12%;
+    font-size: 1.5rem;
+}
+.text-style{
+    border-radius: 10px;
+    border: 3px solid #1b1145;
+    transition: border-radius 0.5s;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+img:not(.exclude) {
+    max-width: 75vw;
+    max-height: 60vh;
+    border-radius: 25px;
+    border: 4px solid #1b1145;
+}
+@media only screen and (max-width: 1000px) {
+    section{
+        font-size: 1.25rem;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+    img:not(.exclude) {
+        max-width: 95vw;
+    }
+}
+
+.hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transition: opacity 1s,
+                filter 1s,
+                transform 1s;
+    visibility: hidden;
+}
+
+.positive{
+    transform: translateX(10%);
+}
+.negative{
+    transform: translateX(-10%);
+}
+@media only screen and (max-width: 1000px) {
+    .positive{
+        transform: translateX(1.25%);
+    }
+    .negative{
+        transform: translateX(-1.25%);
+    }
+}
+
+.hidden.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+    visibility: visible;
+}
+
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-2px); }
+    100% { transform: translateY(0); }
+  }
+
+  .bounce-animation {
+    animation: bounce 4s infinite;
+  }
+  @keyframes jiggle {
+    0% { transform: rotate(-0.5deg); }
+    50% { transform: rotate(0.5deg); }
+    100% { transform: rotate(-0.5deg); }
+  }
+
+  .jiggle-animation {
+    animation: jiggle 4s infinite;
+  }

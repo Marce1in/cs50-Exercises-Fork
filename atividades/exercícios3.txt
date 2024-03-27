@@ -1,0 +1,63 @@
+Atividade Lógica de Programação - Lista 2
+Escreva algoritmos, em linguagem natural, para:
+
+1. Sacar R$100,00 no caixa eletrônico, considerando estar em frente ao caixa
+eletrônico
+
+Ligar o caixa eletrônico
+Digitar os dados pessoais
+Digitar o valor
+Sacar o dinheiro
+
+2. Trocar uma lâmpada queimada, considerando a escada estar posicionada abaixo da
+
+lâmpada.
+Pegar a Lâmpada nova
+Subir na escada
+Retirar a Lâmpada queimada
+Inserir a Lâmpada nova
+Descer da escada
+
+
+3. Assistir a um programa qualquer na TV, considerando que o aparelho está desligado.
+
+Pegar o controle
+Ligar a tv
+Selecionar o canal
+
+4. Preparar um omelete, considerando que os ovos estão na geladeira e os materiais
+
+para preparar o omelete estão guardados.
+Abrir a geladeira
+Pegar os ovos 
+Fechar a geladeira
+Ir para estante
+Pegar o sal
+Pegar a frigideira
+Pegar o óleo
+Ir para fogão
+Botar a frigideira no fogão
+Botar o óleo na frigideira
+Quebrar os dois ovos na frigideira
+Botar o sal nos ovos
+Bater os ovos
+Ligar o fogão
+Esperar alguns minutos
+Retirar o omelete da frigideira
+
+5. Realizar o cálculo 5 + 2 em uma calculadora.
+
+Pressionar 5
+Pressionar +
+Pressionar 2
+Pressionar = 
+
+6. Calcular a média aritmética das notas 6,0 e 7,0.
+
+Somar os dois números
+Dividir eles por 2
+	
+7. Calcular a média de idade de um grupo de 5 pessoas.
+
+Somar a idade das pessoas
+Dividir isso por 5

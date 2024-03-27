@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Quote
+{% endblock %}
+
+{% block main %}
+    <div style="display: flex; justify-content: center;">
+        <form action="/quote" method="post">
+            <input style="vertical-align: middle; margin-bottom: 5px;" type="text" name="symbol" autofocus="" placeholder="Symbol" style="width: 200px;"><br>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+{% endblock %}

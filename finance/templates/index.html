@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Index
+{% endblock %}
+
+{% block main %}
+    <table>
+        <thead>
+            <tr>
+                <th>Symbol</th>
+                <th>Name</th>
+                <th>Shares</th>
+                <th>Price</th>
+                <th>TOTAL</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for symbol in stocks %}
+                <tr>
+                    <td>{{ symbol }}</td>
+                    <td>{{ symbol }}</td>
+                    <td>{{ stocks[symbol][1] }}</td>
+                    <td>{{ stocks[symbol][0] }}</td>
+                    <td>{{ stocks[symbol][2] }}</td>
+                </tr>
+        {% endfor %}
+        <tfoot>
+            <tr>
+                <td class="fw-bold text-end" colspan="4">Cash</td>
+                <td colspan="4">{{ cash }}</td>
+            </tr>
+            <tr>
+                <td class="fw-bold text-end" colspan="4">TOTAL</td>
+                <td colspan="4">{{ sum_cash }}</td>
+            </tr>
+        </tfoot>
+        </tbody>
+    </table>
+    <form action="/money" method="post">
+        <div class="mb-3">
+            <input autocomplete="off" autofocus class="form-control mx-auto w-auto" id="cash" name="cash" placeholder="Cash" type="text">
+        </div>
+        <button class="btn btn-primary" type="submit">Add Cash</button>
+    </form>
+{% endblock %}

@@ -1,0 +1,17 @@
+If songs.db contains the top 100 songs of one listener from 2018,
+how would you characterize their audio aura?
+
+-I think it would be a combination between orange and a little of blue
+there's alot of really energetic music here, but also there's some
+melancholy music too.
+
+
+Hypothesize about why the way you’ve calculated this aura might not be
+very representative of the listener. What better ways of calculating
+this aura would you propose?
+
+-It's really hard to differentiate a calm music from a melancholy, for example
+in the aura might look like a really melancholy person but in the end the person
+maybe just really like to listen calm music.
+I think a better way to calculating is to put some musical genre average in
+this equation.

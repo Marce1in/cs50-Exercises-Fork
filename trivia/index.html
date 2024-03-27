@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Trivia!</title>
+        <script>
+            function MultipleAnswer(button){
+                if (button.className === "Right"){
+                    button.style.background = "Green";
+                    document.getElementById("MultipleAnswerStatus").innerHTML = "Correct!"
+                }
+                else{
+                    button.style.background = "Red";
+                    document.getElementById("MultipleAnswerStatus").innerHTML = "Incorrect"
+                }
+            }
+            function FreeAnswer(input){
+                if(input.value.toLowerCase() === "violet"){
+                    input.style.background = "Green";
+                    document.getElementById("FreeAnswerStatus").innerHTML = "Correct!"
+                }
+                else{
+                    input.style.background = "Red";
+                    document.getElementById("FreeAnswerStatus").innerHTML = "Incorrect"
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Trivia!</h1>
+        </div>
+
+        <div class="container">
+            <div class="section">
+                <h2>Part 1: Multiple Choice </h2>
+                <hr>
+                <!-- TODO: Add multiple choice question here -->
+                <h3>What's the color of the sun?</h3>
+                <button class="Wrong" onclick="MultipleAnswer(this)">
+                    Yellow</button>
+                <button class="Wrong" onclick="MultipleAnswer(this)">
+                    Green</button>
+                <button class="Wrong" onclick="MultipleAnswer(this)">
+                    Red</button>
+                <button class="Right" onclick="MultipleAnswer(this)">
+                    White</button>
+                <button class="Wrong" onclick="MultipleAnswer(this)">
+                    Blue</button>
+                <p id="MultipleAnswerStatus"></p>
+            </div>
+
+            <div class="section">
+                <h2>Part 2: Free Response</h2>
+                <hr>
+                <!-- TODO: Add free response question here -->
+                <h3>What's the true color of the sky?</h3>
+                <input>
+                <button onclick="FreeAnswer(this.previousElementSibling)">Submit</button>
+                <p id="FreeAnswerStatus"></p>
+            </div>
+        </div>
+    </body>
+</html>

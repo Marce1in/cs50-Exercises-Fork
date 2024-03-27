@@ -1,0 +1,35 @@
+1-Ask for a number for height.
+2-If the number is not between 8 and 1 go back one step.
+3-Print a right-facing pyramid with the size of the given number.
+examples:
+height: 4
+   #
+  ##
+ ###
+####
+height: 8
+       #
+      ##
+     ###
+    ####
+   #####
+  ######
+ #######
+########
+4-Print two blank spaces in each line
+5-Print a left facing pyramid with the same size as the first pyramid
+examples:
+height: 8
+       #  #
+      ##  ##
+     ###  ###
+    ####  ####
+   #####  #####
+  ######  ######
+ #######  #######
+########  ########
+height: 4
+   #  #
+  ##  ##
+ ###  ###
+####  ####

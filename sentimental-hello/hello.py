@@ -1,0 +1,1 @@
+print(f"Hello, {input('What is your name? ')}")  # Print and ask for some input in the same line

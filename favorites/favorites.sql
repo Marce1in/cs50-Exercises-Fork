@@ -1,0 +1,1 @@
+SELECT title FROM shows WHERE SUBSTRING(title, 1, 1) = 't'

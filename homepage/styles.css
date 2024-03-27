@@ -1,0 +1,15 @@
+/*Universal Styles*/
+body {
+    margin-bottom: 2rem;
+    background-image: linear-gradient(to right, #a997ea, #a99cee, #a9a0f2,
+    #a9a5f6, #a9a9fa, #a9a9fa, #a9a9fa, #a9a9fa, #a9a5f6, #a9a0f2, #a99cee, #a997ea);
+}
+h1 {
+    color: #101230;
+}
+h2 {
+    color: #101230;
+}
+h3 {
+    color: #101230;
+}
